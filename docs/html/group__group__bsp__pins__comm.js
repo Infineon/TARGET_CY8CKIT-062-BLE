@@ -12,5 +12,9 @@ var group__group__bsp__pins__comm =
     [ "CYBSP_QSPI_D2", "group__group__bsp__pins__comm.html#gada7037ba6e38219866f2892f87886b62", null ],
     [ "CYBSP_QSPI_D1", "group__group__bsp__pins__comm.html#ga432faefd95828b8d45709aa8302a9433", null ],
     [ "CYBSP_QSPI_D0", "group__group__bsp__pins__comm.html#gaaea1a4ddc9aa57c45c4d6695b78ee878", null ],
-    [ "CYBSP_QSPI_SCK", "group__group__bsp__pins__comm.html#ga2bae07a55adc9f31e828312bc8fbdd82", null ]
+    [ "CYBSP_QSPI_SCK", "group__group__bsp__pins__comm.html#ga2bae07a55adc9f31e828312bc8fbdd82", null ],
+    [ "CYBSP_SPI_MOSI", "group__group__bsp__pins__comm.html#ga07b4c8b6a15a1e614ff9be2ebe8088fd", null ],
+    [ "CYBSP_SPI_MISO", "group__group__bsp__pins__comm.html#gaf6282da9ac2be0fe7a4ac84735a24bb0", null ],
+    [ "CYBSP_SPI_CLK", "group__group__bsp__pins__comm.html#gabeb93b3f9b953934666f83a1a97c4367", null ],
+    [ "CYBSP_SPI_CS", "group__group__bsp__pins__comm.html#gad8d3655d655bb752363587ea521c8856", null ]
 ];

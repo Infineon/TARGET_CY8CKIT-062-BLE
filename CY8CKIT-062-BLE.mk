@@ -1,6 +1,5 @@
 ################################################################################
 # \file CY8CKIT-062-BLE.mk
-# \version 1.0
 #
 # \brief
 # Define the CY8CKIT-062-BLE target.
@@ -29,9 +28,12 @@ endif
 
 # MCU device selection
 DEVICE:=CY8C6347BZI-BLD53
+# Default target core to CM4 if not already set
+CORE?=CM4
 
+ifeq ($(CORE),CM4)
 # Additional components supported by the target
-COMPONENTS+=CM0P_SLEEP BSP_DESIGN_MODUS
-
+COMPONENTS+=CM0P_SLEEP BSP_DESIGN_MODUS PSOC6HAL
 # Use CyHAL
 DEFINES+=CY_USING_HAL
+endif

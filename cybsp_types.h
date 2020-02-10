@@ -166,6 +166,15 @@ extern "C" {
 /** Pin: QUAD SPI SCK */
 #define CYBSP_QSPI_SCK              (P11_7)
 
+/** Pin: SPI MOSI */
+#define CYBSP_SPI_MOSI              (P12_0)
+/** Pin: SPI MISO */
+#define CYBSP_SPI_MISO              (P12_1)
+/** Pin: SPI CLK */
+#define CYBSP_SPI_CLK               (P12_2)
+/** Pin: SPI CS */
+#define CYBSP_SPI_CS                (P12_4)
+
 /** \} group_bsp_pins_comm */
 
 
