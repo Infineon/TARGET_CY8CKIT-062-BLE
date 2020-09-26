@@ -26,10 +26,15 @@ ifeq ($(WHICHFILE),true)
 $(info Processing $(lastword $(MAKEFILE_LIST)))
 endif
 
+# Set the default build recipe for this board if not set by the user
+include $(dir $(lastword $(MAKEFILE_LIST)))/locate_recipe.mk
+
 # MCU device selection
 DEVICE:=CY8C6347BZI-BLD53
 # Default target core to CM4 if not already set
 CORE?=CM4
+# Basic architecture specific components
+COMPONENTS+=CAT1A
 
 ifeq ($(CORE),CM4)
 # Additional components supported by the target
